@@ -1,0 +1,53 @@
+/* font import  */
+
+/* to remove default space  */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: sans-serif;
+    background-color: black;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 85)), url(https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/065df910-dec3-46ae-afa8-7ad2b52dce40/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+.container{
+    max-width: 100vw;
+    height: 100vh;
+}
+/* nav bar section  */
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.logo svg{
+    fill: red;
+    height: 37px;
+    padding: 26px 56px;
+    display: block;
+}
+
+.btn__link{
+    text-align: right;
+    margin: 35px 22%;
+    display: inline-block;
+}
+
+.btn__link a{
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+    padding: 7px 17px;
+}
+
+.btn__link select{
+    margin-right: 25px;
+    background: transparent;
+    color: white;
+    padding: 7px 35px;
+    border-radius: 3px;
+}
+
