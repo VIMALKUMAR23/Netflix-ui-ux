@@ -51,3 +51,13 @@ header nav{
     border-radius: 3px;
 }
 
+/* hero section  */
+.hero{
+    color: white;
+    margin-top: 197px;
+    text-align: center;
+}
+h1{
+    font-weight: 600px;
+    font-size: 3rem;
+}
