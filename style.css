@@ -1,19 +1,34 @@
 /* font import  */
 
 /* to remove default space  */
-/* *{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
+.background{
+    width: 1519.20px;
+    height: 700px;
+    position: absolute;
+    z-index: -3;
+}
+.background img{
+    /* box-shadow: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0)20%,rgba(0,0,0,0)80%,rgba(0,0,0,0.8)) ; */
+    position: fixed;
+    opacity: 0.2;
+
+}
+
 body{
     font-family: sans-serif;
     background-color: black;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 85)), url(https://assets.nflxext.com/ffe/siteui/vlv3/ff5587c5-1052-47cf-974b-a97e3b4f0656/065df910-dec3-46ae-afa8-7ad2b52dce40/IN-en-20240506-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+   
 }
 .container{
-    max-width: 100vw;
-    height: 100vh;
+    position: relative;
+    width: 1519.20px;
+    height: 700px;
+    z-index: 2;
 }
 /* nav bar section  */
 header nav{
@@ -24,7 +39,7 @@ header nav{
 
 .logo svg{
     fill: red;
-    height: 37px;
+    height: 97px;
     padding: 26px 56px;
     display: block;
 }
@@ -57,7 +72,47 @@ header nav{
     margin-top: 197px;
     text-align: center;
 }
-h1{
-    font-weight: 600px;
+.hero h1{
+    font-weight: 900;
     font-size: 3rem;
+    
+}
+
+.hero h3{
+    margin: 16px 0 0;    
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.hero p{
+    font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.5;
+        margin: 16px 0 20px;
+}
+
+.hero input{
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 3px;
+    width: 368.75px;
+    height: 56px;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+.hero button{
+    width: 209.25px;
+    height: 56px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 26px;
+ position: relative;
+}
+
+.hero button svg{
+
 }
