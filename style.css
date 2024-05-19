@@ -14,7 +14,7 @@
 }
 .background img{
     /* box-shadow: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0)20%,rgba(0,0,0,0)80%,rgba(0,0,0,0.8)) ; */
-    position: fixed;
+    
     opacity: 0.2;
 
 }
@@ -26,8 +26,8 @@ body{
 }
 .container{
     position: relative;
-    width: 1519.20px;
-    height: 700px;
+   max-width: 100vw;
+    height: 100vh;
     z-index: 2;
 }
 /* nav bar section  */
@@ -113,6 +113,26 @@ header nav{
  position: relative;
 }
 
-.hero button svg{
+.btn-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+     gap: 10px;
+     position: relative;
+}
 
+.btn-a button svg{
+    height: 50%;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    justify-content: center;
+    
+}
+
+.card{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
