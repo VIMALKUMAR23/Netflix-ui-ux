@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 .background{
-    width: 1519.20px;
-    height: 700px;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    z-index: -3;
+    z-index: -1;
 }
 .background img{
     /* box-shadow: linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0)20%,rgba(0,0,0,0)80%,rgba(0,0,0,0.8)) ; */
@@ -133,6 +133,5 @@ header nav{
 
 .card{
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
 }
