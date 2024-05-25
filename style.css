@@ -134,12 +134,14 @@ header nav{
     color: white;
     position: relative;
     border-top: 5px solid gray;
+    border-width: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     bottom: -480px;
     right: -21px;
+    margin: 0;
 }
 
 .card-img{
@@ -157,4 +159,19 @@ header nav{
     left: 74px;
     z-index: -50;
     bottom: 119px;
+}
+
+.card-detail{
+    margin-left: 177px;
+}
+
+.card-detail h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.card-detail p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 25px;
 }
