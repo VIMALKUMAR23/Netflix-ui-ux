@@ -194,3 +194,11 @@ header nav{
     bottom: 216px;
     width: 406px;
 }
+
+.qa{
+    position: relative;
+    border-top: 3px solid gray;
+    color: white;
+    bottom: -566px;
+    
+}
